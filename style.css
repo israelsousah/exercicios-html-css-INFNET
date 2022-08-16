@@ -3,7 +3,7 @@ body,h1,h2,h3,nav{
 }
 
 body{
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: 'Nunito', Arial, Helvetica, sans-serif;
   background-color: #D4D4D4;
 }
 
@@ -17,19 +17,18 @@ body{
 
 .botao{
   background-color: #FFC03D;
-  border-radius: 10px;
   color: #333333;
+  border-radius: 10px;
   text-align: center;
   padding: 13px 20px;
   text-decoration: none;
-  box-shadow: 5px 3px 7px #000;
+  box-shadow: 5px 5px 10px #000;
   font-size: 15px;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: 'Nunito', Helvetica, sans-serif;
   font-weight: 600;
   margin-right: 40px;
-   transition:transform 400ms linear ;
-  opacity: 0.9;
-  
+  transition:transform 400ms linear ;
+  opacity: 0.9;  
 }
 
 .botao:hover{
@@ -43,7 +42,7 @@ body{
   align-items: center;
   color: #333333;
   font-size: 15px;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: 'Nunito', Arial, Helvetica, sans-serif;
   font-weight: 600;
   text-decoration: none;
   margin-right: 40px;
@@ -68,14 +67,15 @@ body{
 }
 
 .title{
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 40px;
+  font-family: 'Raleway', cursive, Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 500;
   color:#333333;
   text-align: center;
 }
 
 .subtitle{
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: 'Nunito', cursive, Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 16px;
   color: #333333;
@@ -87,6 +87,12 @@ body{
   margin-right: 10%;
   margin-top: 10%;
 }
+
+.perfil:hover{
+  opacity: 0.8;
+}
+
+
 
 .sessao{
   display: inline-flex;
